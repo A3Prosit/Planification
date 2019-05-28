@@ -248,7 +248,7 @@ Marge brute (marge brute d'exploitation) :
 A l'aide de ces valeurs, on peut obtenir les données suivantes :
 A tout moment, il est donc possible de calculer les écarts (ou variances) suivants :
 
--   **l’Ecart Coût EC = VA – CR**
+-   **l’Ecart Coût EC  = VA – CR**
 -   **l’Ecart Délai ED = VA – VP**
 
 On en déduit deux indices de performance (%) :
@@ -259,6 +259,23 @@ On en déduit deux indices de performance (%) :
 -   l’**Indice de Performance Délai** ou Efficacité (en anglais SPI pour « Schedule Performance Index ») 
 	- **IPD = VA / VP** = Ce que nous avons fait / Ce que nous aurions dû faire (à cette date).
 	-  Le coefficient d’efficacité, si inférieur à 1, indique que le travail effectué est inférieur au travail prévu. Le projet est en retard.
+	
+	**Planing Value = Buget - CR**
 
 Interprétation : 
 https://aurga.wordpress.com/2012/08/11/methode-des-courbes-en-s-sigmoide-ou-gestion-de-la-valeur-acquise-earned-value-management/
+
+
+## Workshop
+1,781,300.65 € Buget 
+33% budget avancement
+
+Valeur acquise ou (EV)  : B * %avancement = 587829.215€
+
+Planing Value = Buget - CR
+			= 1781300,65 - 107795,31
+			= 1673505.34€
+			
+Schedule Variance (SV) = EV - PV 
+						= 587 0000 - 1 600 000€
+						Le résultat est < 0 On est en retard niveau budget dans notre projet
